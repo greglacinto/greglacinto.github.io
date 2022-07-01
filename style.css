@@ -1,0 +1,217 @@
+body {
+    background-image: url(assets/background.png);
+    
+}
+
+.logo {
+    /* position: absolute; */
+    width: 40.24px; 
+    height: 40px;
+    margin-left: 5px;
+    /* left: 104px; */
+    /* top: 37px; */
+}
+
+.frame {
+    /* Frame 1000003816 */
+    margin-right: 10px;
+    /* Auto layout */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    padding: 0px;
+    /* gap: 10px; */
+
+    /* position: absolute; */
+    width: 97px;
+    height: 40px;
+    /* left: 1239px; */
+    /* top: 37px; */
+}
+
+.none-top-bottom-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#unlock-div {
+    border: solid;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 35px;
+    line-height: 91%;
+
+    /* or 64px */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* Colors/Neutral/White/100% */
+    color: #FFFFFF;
+}
+
+#power-div {
+    /* Unlock to Power your dreams! */
+    border: solid;
+    /* position: absolute; */
+    /* width: 80%; */
+    /* max-height: 128px; */
+    /* left: 284px; */
+    /* top: 130px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 91%;
+
+    /* or 64px */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* Colors/Neutral/White/100% */
+    color: #FFFFFF;
+}
+
+
+
+.stand-a-chance {
+    /* Stand a chance to win N3,000,000 everyday for the next 5 days */
+    border: solid;
+    /* position: absolute; */
+    /* width: 516px; */
+    /* height: 66px; */
+    /* left: 462.33px; */
+    /* top: 281px; */
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.4318px;
+    line-height: 111.5%;
+
+    /* or 33px */
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    /* Colors/Neutral/White/100% */
+    color: #FFFFFF;
+}
+
+.how-to-play {
+    /* Frame 1000003808 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 27px;
+    gap: 16px;
+
+    /* position: absolute; */
+    /* width: 425px; */
+    
+    min-height: 257px;
+    /* left: 507px; */
+    /* top: 371px; */
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17), inset 0px 2px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+
+    /* Colors/Neutral/White/100% */
+
+
+}
+
+.play-heading {
+    /* 🚀 How To Play */
+
+    width: 115px;
+    height: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+    /* identical to box height, or 26px */
+    text-align: center;
+
+    
+    border: solid;
+
+    
+}
+
+.play-heading p {
+    border: solid;
+}
+
+.idea {
+    /* Frame 1000003630 */
+
+    /* Auto layout */
+    border: solid;
+
+
+    padding: 10px;
+    
+
+    
+    /* height: 77px; */
+
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+
+.play-btn {
+    /* Button */
+
+    /* Auto layout */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* padding: 7px 16px; */
+    /* gap: 4px; */
+
+    /* position: absolute; */
+    /* width: 225px; */
+    height: 56px;
+    /* left: 607px; */
+    /* top: 672px; */
+
+    background: #ECAB03;
+    border-radius: 4px;
+}
+
+.left-coin {
+    animation-name: leftcoin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftcoin {
+    from { transform: translateY(0); }
+    50% { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+    
+}
+
+.right-coin {
+    animation-name: rightcoin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rightcoin {
+    from { transform: translateY(0); }
+    50% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+    
+}
